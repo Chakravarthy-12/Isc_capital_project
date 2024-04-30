@@ -71,7 +71,5 @@ else:
 
     # If non-hourly dataframe also concatenate basis on week Date Uncomment below lines and command the above 4 lines
     # combined_df = pd.concat([filter_df, overtime_df, non_hourly_df], ignore_index=True)
-    #
     # combined_df.sort_values(by=['EndOfWeek', 'WorkDate'], inplace=True)
-    #
     # combined_df.to_excel('final_output.xlsx', engine='openpyxl', index=False)
